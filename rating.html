@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Список фильмов</title>
+	<title>Рейтинг Фильмов</title>
 	<meta name="description" content="Киномонстр - портал о кино">
 	<meta name="keyword" content="фильмы, фильмы онлайн, смотреть кино онлайн">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -21,9 +21,9 @@
 			<div class="menubar">
 				<ul class="menu">
 					<li><a href="index.html">Главная</a></li>
-					<li class="selected"><a href="#">Фильмы</a></li>
+					<li><a href="fims.html">Фильмы</a></li>
 					<li><a href="#">Сериалы</a></li>
-					<li><a href="rating.html">Рейтинг фильмов</a></li>
+					<li class="selected"><a href="rating">Рейтинг фильмов</a></li>
 					<li><a href="contacts.html">Контакты</a></li>
 				</ul>
 	
@@ -74,33 +74,38 @@
 			</div>
 
 			<div class="content">
-                <div class="info_film">
-                    <img src="assets/img/inter.png">
-                    <b>Interstellar:</b><br>
-                    In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. 
-                    Professor Brand (Michael Caine), a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. 
-                    But first, Brand must send former NASA pilot Cooper (Matthew McConaughey) and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home.
-                    <div class="button"><a href="movies/inter.html">Смотреть</a></div>
-                </div>
-                <div class="info_film">
-                    <img src="assets/img/max.png">
-                    <b>Mad Max: Fury Road</b><br>
-                    is a 2015 Australian post-apocalyptic action film co-written, co-produced, and directed by George Miller. Miller collaborated with Brendan McCarthy and Nico Lathouris on the screenplay.
-                    <div class="button"><a href="movies/max.html">Смотреть</a></div>
-                </div>
-                <div class="info_film">
-                    <img src="assets/img/matrix.png">
-                    <b>The Matrix</b><br>
-                    is an American media franchise created by the Wachowskis. The series primarily consists of a trilogy of science fiction action films beginning with The Matrix (1999) and continuing with two sequels, The Matrix Reloaded and The Matrix Revolutions (both in 2003), all written and directed by the Wachowskis and produced by Joel Silver
-                    <div class="button"><a href="movies/matrix.html">Смотреть</a></div>
-                </div>
-                <div class="info_film">
-                    <img src="assets/img/cloud.png">
-                    <b>Cloud Atlas</b><br>
-                    is a 2012 epic science fiction film written and directed by the Wachowskis and Tom Tykwer.[7] Adapted from the 2004 novel of the same name by David Mitchell, the film has multiple plots occurring during six different eras in time
-                    <div class="button"><a href="movies/cloud.html">Смотреть</a></div>
-                </div>
-
+               <table>
+                   <tr>
+                       <th></th>
+                       <th>Фильм</th>
+                       <th class="center">Год</th>
+                       <th class="center">Рейтинг</th>
+                   </tr>
+                   <tr>
+                        <td class="center"><img src="assets/img/inter.png"></td>
+                        <td>1. <a href="movies/inter.html">Интерстеллар</a></td>
+                        <td class="center">2014</td>
+                        <td class="center">8.1</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="assets/img/matrix.png"></td>
+                        <td>1. <a href="movies/matrix.html">Матрица</a></td>
+                        <td class="center">1999</td>
+                        <td class="center">8.0</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="assets/img/max.png"></td>
+                        <td>1. <a href="movies/max.html">Безумный Макс</a></td>
+                        <td class="center">2015</td>
+                        <td class="center">7.5</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="assets/img/cloud.png"></td>
+                        <td>1. <a href="movies/cloud.html">Облачный Атлас</a></td>
+                        <td class="center">2013</td>
+                        <td class="center">7.4</td>
+                    </tr>
+               </table>
 
                 
 			</div>
